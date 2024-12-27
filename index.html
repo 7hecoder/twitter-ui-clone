@@ -14,7 +14,7 @@
                 <img class="w-8 invert" src="./assets/logo.svg" alt="">
             </div>
 
-            <div class="sidebar flex justify-center">
+            <div class="sidebar flex flex-col justify-center text-center">
 
                     <ul class="flex flex-col gap-4">
                         <li class="invert hover:bg-gray-950 rounded duration-300 delay-100 "><img class="size-8" src="./assets/home.svg" alt=""></li>
@@ -24,17 +24,23 @@
                         <li class="invert hover:bg-gray-950 rounded duration-300 delay-100"><img class="size-8" src="./assets/grok.svg" alt=""></li>
                         <li class="invert hover:bg-gray-950 rounded duration-300 delay-100"><img class="size-8" src="./assets/profile.svg" alt=""></li>
                         <li class="invert hover:bg-gray-950 rounded duration-300 delay-100"><img class="size-8" src="./assets/more.svg" alt=""></li>
-                        <li class=""><div class="bg-white rounded-full p-3"><img class="size-6" src="./assets/post.svg" alt=""></div></li>
                     </ul>
 
-                    <div class="profile absolute bottom-1">
-                        <img class="rounded-full" src="./assets/thecoder.jpg" alt="">
+                    <div class="flex flex-col my-6 text-center">
+                        <div class="bg-white rounded-full p-3">
+                            <img class="size-6" src="./assets/post.svg" alt="">
+                        </div>
+
+                        <div class="profile absolute bottom-4">
+                            <img class="rounded-full" src="./assets/thecoder.jpg" alt="">
+                        </div>
                     </div>
+
             </div>
         </div>
         <div class="second w-full border-[1px] border-x-[#484b52] border-y-black">
             <div class="top flex py-2 relative">
-                <div class="forYou w-1/2 flex justify-center font-bold text-lg">For You</div>
+                <div class="forYou w-1/2 flex justify-center font-bold text-lg">For you</div>
                 <div class="following w-1/2 flex justify-center font-bold text-[#484b52]">Following</div>
                 <div class="absolute w-16 h-[2px] rounded-full bg-blue-500 left-[20%] bottom-0"></div>
             </div>
@@ -46,7 +52,7 @@
                 <input type="text" class="w-64 rounded-full bg-[#202327] text-white px-5 py-2" placeholder="Search">
             </div>
 
-            <div class="prem m-3 bg-[#16181c] w-64 p-5 rounded-xl space-y-1"">
+            <div class="prem m-3 bg-[#16181c] w-64 p-5 rounded-xl space-y-1">
                 <h1 class="text-xl font-bold px-3">Try Premium for free today</h1>
                 <p class="p-2">Upgrade your experience with less ads, power tools, and more with Premium.</p>
                 <button class="bg-white text-gray-900 mx-2 p-3 rounded-full font-bold">Start free 14-day trial</button>
